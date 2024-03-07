@@ -1,0 +1,20 @@
+package course;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		String original = "abcde FGHIJ ABC abc DEFG     ";
+		
+		String original2 = original.toLowerCase();
+		String original3 = original.toUpperCase();
+		String original4 = original.trim();
+		
+		System.out.println("Original-" + original + "-");
+		System.out.println("toLowerCase-" + original2 + "-");
+		System.out.println("toLowerCase-" + original3 + "-");
+		System.out.println("toLowerCase-" + original4 + "-");
+
+	}
+
+}
